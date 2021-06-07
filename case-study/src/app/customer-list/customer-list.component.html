@@ -14,11 +14,15 @@
     </tr>
     </thead>
     <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
+    <tr *ngFor="let c of customers ,let i = index" >
+      <th scope="row">{{i+1}}</th>
+      <td>{{c.typeCustomer}}</td>
+      <td>{{c.name}}</td>
+      <td>{{c.dateOfBirth}}</td>
+      <td>{{c.idCard}}</td>
+      <td>{{c.phoneNumber}}</td>
+      <td>{{c.email}}</td>
+      <td>{{c.address}}</td>
     </tr>
     </tbody>
   </table>

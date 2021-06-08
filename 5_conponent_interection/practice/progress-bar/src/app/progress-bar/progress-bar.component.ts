@@ -20,7 +20,7 @@ export class ProgressBarComponent implements OnInit {
   }
   loading() {
     let interval = setInterval(() => {
-      this.progress = +this.progress + 5;
+      this.progress = +this.progress + 2;
       if (this.progress === 100) {
         clearInterval(interval);
       }

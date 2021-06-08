@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {IRatingUnit} from './IRatingUnit';
+
 
 @Component({
   selector: 'app-root',
@@ -8,6 +8,7 @@ import {IRatingUnit} from './IRatingUnit';
 })
 export class AppComponent {
   title = 'app-vote';
+  count: number;
   choose: number = 0;
   cssString1: string = '';
   cssString2: string = '';

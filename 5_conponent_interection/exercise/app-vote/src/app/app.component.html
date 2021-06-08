@@ -8,3 +8,5 @@
 <button [ngClass]="cssString4" (click)="choose4()">4</button>
 <button [ngClass]="cssString5" (click)="choose5()">5</button>
 <p>---------</p>
+<app-countdown-app [countChild]="count" [countReset]="count"></app-countdown-app>
+<input type="text" [(ngModel)]="count">

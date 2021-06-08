@@ -6,7 +6,7 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./name-card.component.css']
 })
 export class NameCardComponent implements OnInit {
-  @Input() cardName: string;
+  @Input() cardName: string = 'ss';
   @Input() email: string;
   @Input() phone: string;
   constructor() { }

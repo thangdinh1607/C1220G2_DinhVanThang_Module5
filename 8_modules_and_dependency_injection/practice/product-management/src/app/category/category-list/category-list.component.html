@@ -1,0 +1,20 @@
+<div class="container">
+  <h2>Add new Category</h2>
+  <a routerLink="/category/create">Add new Category</a>
+  <table border="1">
+    <tr>
+      <th>#</th>
+      <th>ID</th>
+      <th> Name</th>
+      <th colspan="2"> Action</th>
+    </tr>
+    <tr *ngFor="let c of categories , index as i">
+      <td>{{i+1}}</td>
+      <td>{{c.id}}</td>
+      <td>{{c.name}}</td>
+      <td><a [routerLink]="['/category/edit',c.id]" >Edit </a></td>
+      <td><a [routerLink]="['/category/delete',c.id]">Delete</a></td>
+
+    </tr>
+  </table>
+</div>

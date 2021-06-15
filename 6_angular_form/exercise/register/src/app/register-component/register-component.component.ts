@@ -25,7 +25,7 @@ export class RegisterComponentComponent implements OnInit {
     passwordFrom: new FormGroup({
       password: new FormControl('', [Validators.required]  ),
       confirmPassword: new FormControl('')
-    },{validators: comparePassword}),
+    },[comparePassword]),
 
 
     country: new FormControl('',Validators.required),
@@ -33,8 +33,6 @@ export class RegisterComponentComponent implements OnInit {
     gender: new FormControl('', [Validators.required]) ,
     phoneNumber: new FormControl('' , [Validators.pattern('090\\d{7}'), Validators.required]),
   });
-
-
   constructor() {
   }
 

@@ -2,11 +2,16 @@
 
   <h2 class="text-center">Create Customer</h2>
   <form>
+
     <div class="form-group">
-      <label for="typeCustomer">Type Customer</label>
-      <select id="typeCustomer" class="form-control">
-        <option selected>Choose...</option>
-        <option>...</option>
+      <label for="code">Code</label>
+      <input type="text" class="form-control" id="code">
+    </div>
+    <div class="form-group">
+      <label for="typeCustomer">TypeCustomer</label>
+      <select name="typeCustomer" id="typeCustomer" class="form-control" >
+        <option value="null">-----</option>
+        <option *ngFor="let tc of typeCustomers" value="{{tc.id}}">{{tc.name}}</option>
       </select>
     </div>
     <div class="form-group">

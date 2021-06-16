@@ -1,0 +1,123 @@
+{
+  "customer": [
+    {
+      "id": "1",
+      "customerCode": "KH-001",
+      "name": "Gau Gau",
+      "birthday": "2000-12-12",
+      "idCard": "123123123",
+      "phoneNumber": "0905123456",
+      "email": "gaugau@gmail.com",
+      "address": "Da Nang"
+    },
+    {
+      "id": "2",
+      "customerCode": "KH-001",
+      "name": "Gau Gau",
+      "birthday": "2000-12-12",
+      "idCard": "123123123",
+      "phoneNumber": "0905123456",
+      "email": "gaugau@gmail.com",
+      "address": "Da Nang"
+    },
+    {
+      "id": "3",
+      "customerCode": "KH-001",
+      "name": "Gau Gau",
+      "birthday": "2000-12-12",
+      "idCard": "123123123",
+      "phoneNumber": "0905123456",
+      "email": "gaugau@gmail.com",
+      "address": "Da Nang"
+    },
+    {
+      "id": "1",
+      "customerCode": "KH-001",
+      "name": "Gau Gau",
+      "birthday": "2000-12-12",
+      "idCard": "123123123",
+      "phoneNumber": "0905123456",
+      "email": "gaugau@gmail.com",
+      "address": "Da Nang"
+    },
+    {
+      "id": "1",
+      "customerCode": "KH-001",
+      "name": "Gau Gau",
+      "birthday": "2000-12-12",
+      "idCard": "123123123",
+      "phoneNumber": "0905123456",
+      "email": "gaugau@gmail.com",
+      "address": "Da Nang"
+    },
+    {
+      "id": "1",
+      "customerCode": "KH-001",
+      "name": "Gau Gau",
+      "birthday": "2000-12-12",
+      "idCard": "123123123",
+      "phoneNumber": "0905123456",
+      "email": "gaugau@gmail.com",
+      "address": "Da Nang"
+    },
+    {
+      "id": "1",
+      "customerCode": "KH-001",
+      "name": "Gau Gau",
+      "birthday": "2000-12-12",
+      "idCard": "123123123",
+      "phoneNumber": "0905123456",
+      "email": "gaugau@gmail.com",
+      "address": "Da Nang"
+    },
+    {
+      "id": "1",
+      "customerCode": "KH-001",
+      "name": "Gau Gau",
+      "birthday": "2000-12-12",
+      "idCard": "123123123",
+      "phoneNumber": "0905123456",
+      "email": "gaugau@gmail.com",
+      "address": "Da Nang"
+    },
+    {
+      "id": "1",
+      "customerCode": "KH-001",
+      "name": "Gau Gau",
+      "birthday": "2000-12-12",
+      "idCard": "123123123",
+      "phoneNumber": "0905123456",
+      "email": "gaugau@gmail.com",
+      "address": "Da Nang"
+    },
+    {
+      "id": "1",
+      "customerCode": "KH-001",
+      "name": "Gau Gau",
+      "birthday": "2000-12-12",
+      "idCard": "123123123",
+      "phoneNumber": "0905123456",
+      "email": "gaugau@gmail.com",
+      "address": "Da Nang"
+    }
+  ],
+  "typeCustomer": [
+    {
+      "id": "1",
+      "name": "Diamond"
+    },
+    {
+      "id": "2",
+      "name": "Platinium"
+    }, {
+      "id": "3",
+      "name": "Gold"
+    }, {
+      "id": "4",
+      "name": "Silver"
+    }, {
+      "id": "5",
+      "name": "Member"
+    }
+  ]
+}
